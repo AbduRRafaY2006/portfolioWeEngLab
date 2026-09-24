@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260" width="300" height="260" role="img" aria-label="Pixel-art grass block">
+  <defs>
+    <pattern id="topTexture" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="translate(150 20) skewX(-30) scale(1 0.5) rotate(60)">
+      <rect width="20" height="20" fill="none"/>
+      <rect width="10" height="10" fill="#000" opacity="0.05"/>
+      <rect x="10" y="10" width="10" height="10" fill="#000" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <!-- LEFT FACE: dirt (lower) -->
+  <polygon points="50,91.6 150,141.6 150,240 50,190" fill="#7A4E28" stroke="#1B120A" stroke-width="4" stroke-linejoin="round"/>
+  <!-- LEFT FACE: grass fringe (upper) -->
+  <polygon points="50,70 150,120 150,141.6 50,91.6" fill="#64B233" stroke="#1B120A" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- RIGHT FACE: dirt (lower, shaded darker) -->
+  <polygon points="150,141.6 250,91.6 250,190 150,240" fill="#5C3A1E" stroke="#1B120A" stroke-width="4" stroke-linejoin="round"/>
+  <!-- RIGHT FACE: grass fringe (upper, shaded darker) -->
+  <polygon points="150,120 250,70 250,91.6 150,141.6" fill="#57A22E" stroke="#1B120A" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- TOP FACE: grass -->
+  <polygon points="150,20 250,70 150,120 50,70" fill="#6FBF3A" stroke="#1B120A" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="150,20 250,70 150,120 50,70" fill="url(#topTexture)"/>
+</svg>
